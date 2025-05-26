@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
@@ -13,7 +14,7 @@ const transporter = nodemailer.createTransport({
 const sendEmail = async (email, code) => {
   try {
     const info = await transporter.sendMail({
-      from: `shreshthajitdas@gmail.com`,
+      from: process.env.SENDER_EMAIL,
       to: email,
       subject: 'Verification of Discovery Account',
       html: `
