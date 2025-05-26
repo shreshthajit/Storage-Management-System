@@ -31,11 +31,3 @@ GOOGLE_CALLBACK_URL=
 yarn install
 nodemon index.js
 ```
-
-## Change email:
-```
-1. Go to  src\utilities\mailer.utils.js
-2. change the email to yours shown in this image
-```
-![Image](https://github.com/user-attachments/assets/283684a6-b665-4b6f-9d45-675804f98976)
-
