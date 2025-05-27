@@ -1,7 +1,7 @@
 {
-  "name": "bethell-api",
+  "name": "SD",
   "version": "1.0.0",
-  "description": "Bethell's API",
+  "description": "Test",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -11,8 +11,8 @@
   "engines": {
     "node": ">=14.20.1"
   },
-  "author": "Recko Jean",
-  "license": "ISC",
+  "author": "Shreshthajit",
+  "license": "test",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.540.0",
     "aws-sdk": "^2.1584.0",
